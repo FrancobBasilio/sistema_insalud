@@ -48,11 +48,10 @@ src/
    git clone [URL_DEL_REPOSITORIO]
 Configurar la base de datos en application.properties:
 
-properties
-Copiar código
 spring.datasource.url=jdbc:postgresql://localhost:5432/NOMBRE_TU_BASE_DATOS
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
+
 Importar como proyecto Maven en tu IDE.
 
 Ejecutar como Spring Boot App.
