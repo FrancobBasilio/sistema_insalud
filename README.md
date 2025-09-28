@@ -72,8 +72,11 @@ http POST http://localhost:8080/api/auth/login \
 Content-Type:application/json \
 usuario=paciente1 \
 contrasena=12345
+
 📡 Endpoints Principales
+
 Atenciones
+
 GET /api/atenciones → (ADMIN / MÉDICO)
 
 GET /api/atenciones/mias → (PACIENTE)
@@ -87,6 +90,7 @@ DELETE /api/atenciones/{id} → (ADMIN)
 GET /api/atenciones/buscar-por-fecha?fecha=YYYY-MM-DD → (ADMIN / MÉDICO)
 
 🗃️ Modelo de Datos
+
 El sistema incluye las siguientes entidades:
 
 Persona
