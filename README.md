@@ -58,6 +58,8 @@ Ejecutar como Spring Boot App.
 
 ✅ Los datos de prueba se cargan automáticamente desde import.sql.
 
+Pruebas Postman /<>:
+
 🔐 Autenticación y Usuarios de Prueba
 Rol	Usuario	Contraseña
 ADMIN	admin1	12345
@@ -65,8 +67,7 @@ MÉDICO	medico1	12345
 PACIENTE	paciente1	12345
 
 Ejemplo de Login (HTTP)
-bash
-Copiar código
+
 http POST http://localhost:8080/api/auth/login \
 Content-Type:application/json \
 usuario=paciente1 \
