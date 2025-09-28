@@ -31,16 +31,9 @@ src/
 ├── repository/ # Repositorios (DAO)
 ├── service/ # Servicios
 └── WebInsaludApplication.java
-
-python
-Copiar código
   └── resources/
        ├── application.properties
        └── import.sql           # Datos de prueba
-yaml
-Copiar código
-
----
 
 ## 🚀 Instrucciones de Ejecución
 
@@ -72,7 +65,7 @@ ADMIN	admin1	12345
 MÉDICO	medico1	12345
 PACIENTE	paciente1	12345
 
-Ejemplo de Login (HTTPie)
+Ejemplo de Login (HTTP)
 bash
 Copiar código
 http POST http://localhost:8080/api/auth/login \
