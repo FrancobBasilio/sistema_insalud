@@ -61,10 +61,11 @@ Ejecutar como Spring Boot App.
 Pruebas Postman /<>:
 
 🔐 Autenticación y Usuarios de Prueba
-Rol	Usuario	Contraseña
-ADMIN	admin1	12345
-MÉDICO	medico1	12345
-PACIENTE	paciente1	12345
+
+Rol	    Usuario	    Contraseña
+ADMIN    admin1	    12345
+MÉDICO	 medico1	  12345
+PACIENTE paciente1	12345
 
 Ejemplo de Login (HTTP)
 
