@@ -18,18 +18,18 @@ Maven
 📦 Estructura del Proyecto
 text
 src/
-├── main/
-│   ├── java/
-│   │   └── com/insalud/
-│   │       ├── config/ Security y JWT
-│   │       ├── controller/
-│   │       ├── entity/
-│   │       ├── repository/
-│   │       ├── service/
-│   │     WebInsaludApplication
-│   └── resources/
-│       ├── import.sql (datos de prueba)
-│       └── application.properties
+------ main/
+--------java/
+-------- com/insalud/
+------------ config/ Security y JWT
+------------ controller/
+------------ entity/
+------------ repository/
+------------ service/
+------- WebInsaludApplication
+-------/ resources/
+-------/ import.sql (datos de prueba)
+-------/ application.properties
 
 🚀 Instrucciones de Ejecución
 Prerrequisitos
